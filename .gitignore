@@ -1,0 +1,56 @@
+## .NET / C#
+bin/
+obj/
+out/
+*.user
+*.suo
+*.userprefs
+*.dbmdl
+*.jfm
+
+## Visual Studio
+.vs/
+*.opendb
+*.VC.db
+*.VC.opendb
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## VS Code (workspace user files; keep .vscode/ if you commit shared settings)
+.vscode/
+
+## Build artifacts
+*.dll
+*.exe
+*.pdb
+publish/
+artifacts/
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+!packages/build/
+
+## Logs / temp
+*.log
+*.tmp
+*.cache
+
+## OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+## Secrets — KESİNLİKLE commit'leme
+*.env
+.env
+secrets.json
+appsettings.Local.json
+appsettings.*.Local.json
+
+## Claude Code workspace settings (kişisel)
+.claude/
